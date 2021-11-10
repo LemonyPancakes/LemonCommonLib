@@ -1,0 +1,6 @@
+name: PancakeLibCore
+version: '${project.version}'
+main: me.swagpancakes.pancakelibcore.PancakeLibCore
+api-version: 1.17
+authors: [ SwagPannekaker ]
+description: A collection of different libraries used by my plugins.
