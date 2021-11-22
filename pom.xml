@@ -6,7 +6,7 @@
 
     <groupId>me.swagpancakes</groupId>
     <artifactId>pancakelibcore</artifactId>
-    <version>Build 1</version>
+    <version>Build 2</version>
     <packaging>jar</packaging>
 
     <name>PancakeLibCore</name>
