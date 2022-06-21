@@ -1,6 +1,10 @@
-name: PancakeLibCore
+name: LemonLib
 version: '${project.version}'
-main: me.swagpancakes.pancakelibcore.PancakeLibCore
+main: me.lemonypancakes.lemonlib.LemonLib
 api-version: 1.17
-authors: [ SwagPannekaker ]
-description: A collection of different libraries used by my plugins.
+load: STARTUP
+softdepend:
+  - PacketWrapper
+  - ProtocolLib
+authors: [ LemonyPancakes ]
+description: A collection of libraries.
