@@ -1,13 +1,13 @@
-package me.lemonypancakes.lemonlib;
+package me.lemonypancakes.bukkit.common;
 
-import me.lemonypancakes.lemonlib.util.ChatUtils;
+import me.lemonypancakes.bukkit.common.util.ChatUtils;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class LemonLib extends JavaPlugin {
+public final class LemonCommonLib extends JavaPlugin {
 
-    private LemonLib plugin;
+    private LemonCommonLib plugin;
 
-    public LemonLib getPlugin() {
+    public LemonCommonLib getPlugin() {
         return plugin;
     }
 

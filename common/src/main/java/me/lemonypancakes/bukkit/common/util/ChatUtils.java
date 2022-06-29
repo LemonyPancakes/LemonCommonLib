@@ -1,4 +1,4 @@
-package me.lemonypancakes.lemonlib.util;
+package me.lemonypancakes.bukkit.common.util;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

@@ -1,6 +1,6 @@
-name: LemonLib
+name: LemonCommonLib
 version: '${project.version}'
-main: me.lemonypancakes.lemonlib.LemonLib
+main: me.lemonypancakes.bukkit.common.LemonCommonLib
 api-version: 1.17
 load: STARTUP
 softdepend:
