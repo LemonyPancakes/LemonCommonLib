@@ -1,5 +1,5 @@
 /*
- * Origins-Bukkit - Origins for Bukkit and forks of Bukkit.
+ * LemonCommonLib - A collection of libraries.
  * Copyright (C) 2022 LemonyPancakes
  *
  * This program is free software: you can redistribute it and/or modify

@@ -1,5 +1,5 @@
 /*
- * Origins-Bukkit - Origins for Bukkit and forks of Bukkit.
+ * LemonCommonLib - A collection of libraries.
  * Copyright (C) 2022 LemonyPancakes
  *
  * This program is free software: you can redistribute it and/or modify
@@ -32,16 +32,17 @@ public final class LemonCommonLib extends JavaPlugin {
     public void onEnable() {
         plugin = this;
 
-        ChatUtils.sendConsoleMessage("&3[LemonLib] &4   _                       _    _ _    ");
-        ChatUtils.sendConsoleMessage("&3[LemonLib] &c  | |   ___ _ __  ___ _ _ | |  (_) |__ ");
-        ChatUtils.sendConsoleMessage("&3[LemonLib] &6  | |__/ -_) '  \\/ _ \\ ' \\| |__| | '_ \\");
-        ChatUtils.sendConsoleMessage("&3[LemonLib] &e  |____\\___|_|_|_\\___/_||_|____|_|_.__/");
-        ChatUtils.sendConsoleMessage("&3[LemonLib]");
-        ChatUtils.sendConsoleMessage("&a[LemonLib] &bLibraries Loaded.");
+        ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &4  _                                ____                                      _     _ _     ");
+        ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &c | |    ___ _ __ ___   ___  _ __  / ___|___  _ __ ___  _ __ ___   ___  _ __ | |   (_) |__  ");
+        ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &6 | |   / _ \\ '_ ` _ \\ / _ \\| '_ \\| |   / _ \\| '_ ` _ \\| '_ ` _ \\ / _ \\| '_ \\| |   | | '_ \\ ");
+        ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &e | |__|  __/ | | | | | (_) | | | | |__| (_) | | | | | | | | | | | (_) | | | | |___| | |_) |");
+        ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &a |_____\\___|_| |_| |_|\\___/|_| |_|\\____\\___/|_| |_| |_|_| |_| |_|\\___/|_| |_|_____|_|_.__/ ");
+        ChatUtils.sendConsoleMessage("&3[LemonCommonLib]");
+        ChatUtils.sendConsoleMessage("&a[LemonCommonLib] &bLibraries Loaded.");
     }
 
     @Override
     public void onDisable() {
-        ChatUtils.sendConsoleMessage("&c[LemonLib] Libraries Unloaded.");
+        ChatUtils.sendConsoleMessage("&c[LemonCommonLib] Libraries Unloaded.");
     }
 }
