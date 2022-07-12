@@ -17,6 +17,8 @@
  */
 package me.lemonypancakes.bukkit.common;
 
+import dev.jorel.commandapi.CommandAPI;
+import dev.jorel.commandapi.CommandAPIConfig;
 import me.lemonypancakes.bukkit.common.util.ChatUtils;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -38,6 +40,8 @@ public final class LemonCommonLib extends JavaPlugin {
         ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &e | |__|  __/ | | | | | (_) | | | | |__| (_) | | | | | | | | | | | (_) | | | | |___| | |_) |");
         ChatUtils.sendConsoleMessage("&3[LemonCommonLib] &a |_____\\___|_| |_| |_|\\___/|_| |_|\\____\\___/|_| |_| |_|_| |_| |_|\\___/|_| |_|_____|_|_.__/ ");
         ChatUtils.sendConsoleMessage("&3[LemonCommonLib]");
+        CommandAPI.onLoad(new CommandAPIConfig());
+        CommandAPI.onEnable(this);
         ChatUtils.sendConsoleMessage("&a[LemonCommonLib] &bLibraries Loaded.");
     }
 
